@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Splash_Screen.dart';
-import 'home_page.dart';
+import 'package:task3/Splash_Screen.dart';
+
 import 'Details_Page.dart'; // Import the new Profile Page
+import 'home_page.dart';
 
 void main() {
   runApp(const MyApp());

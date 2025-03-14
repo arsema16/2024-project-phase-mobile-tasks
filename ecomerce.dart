@@ -182,6 +182,7 @@ void main() {
     );
     stdout.write('Choose an option: ');
     String choice = stdin.readLineSync() ?? "-1";
+    // ignore: unnecessary_null_comparison
     if (choice == null || choice.isEmpty) {
       print("No input provided! Please enter a valid choice.");
     } else {
